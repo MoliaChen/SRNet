@@ -1,4 +1,4 @@
-load('D:\projects\wireless communication AI competition\paper\data\DATA_Htrainout.mat');
+load('DATA_Htrainout.mat');
 
 H = zeros(100000,2048);
 for i = 1:1:100000
