@@ -54,14 +54,14 @@ class MyDataset(Dataset):
 
 if __name__ == '__main__':
     if args.scenario == 'indoor':
-        mat = sio.loadmat(os.path.join(args.data_root, 'paper_indoor_H_14_train.mat'))
+        mat = sio.loadmat(os.path.join(args.data_root, 'indoor_H_14_train.mat'))
         x_train = mat['H']
-        mat = sio.loadmat(os.path.join(args.data_root, 'paper_indoor_H_14_val.mat'))
+        mat = sio.loadmat(os.path.join(args.data_root, 'indoor_H_14_val.mat'))
         x_val = mat['H']
     else:
-        mat = sio.loadmat(os.path.join(args.data_root, 'paper_outdoor_H_14_train.mat'))
+        mat = sio.loadmat(os.path.join(args.data_root, 'outdoor_H_14_train.mat'))
         x_train = mat['H']
-        mat = sio.loadmat(os.path.join(args.data_root, 'paper_outdoor_H_14_val.mat'))
+        mat = sio.loadmat(os.path.join(args.data_root, 'outdoor_H_14_val.mat'))
         x_val = mat['H']
     x_train = x_train.astype('float32')
     x_val = x_val.astype('float32')
