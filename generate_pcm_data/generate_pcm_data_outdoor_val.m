@@ -1,4 +1,4 @@
-load('D:\projects\wireless communication AI competition\paper\data\DATA_Hvalout.mat');
+load('DATA_Hvalout.mat');
 
 H = zeros(30000,2048);
 for i = 1:1:30000
