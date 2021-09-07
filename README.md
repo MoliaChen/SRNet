@@ -1,6 +1,12 @@
 # SRNet
 A powerful structure to compress and reconstruct CSI.
 ## Usage
+**Step1**
+
+We train and evaluate the model with PCM method proposed in our paper. Hence, before training or evalution, we have to convert the data from original csi matrix to the format introduced in PCM. 
+The corresponding matlab files are in "generate_pcm_data" folder. The conversion can also be implemented by Python.
+
+**Step2**
 ```
 # Assuming the compression ratio is 4, the scenario is indoor, and the data path is ../data
 python main.py --cr 4 --scenario indoor --data-root ../data
