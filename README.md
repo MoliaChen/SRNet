@@ -3,8 +3,11 @@ A powerful structure to compress and reconstruct CSI.
 ## Usage
 **Step1**
 
-We train and evaluate the model with PCM method proposed in our paper. Hence, before training or evalution, we have to convert the data from original csi matrix to the format introduced in PCM. 
-The corresponding matlab files are in "generate_pcm_data" folder. The conversion can also be implemented by Python.
+We train and evaluate the model with PCM method proposed in our paper. Hence, before training or evalution, we have to convert the data from original csi matrix to the format introduced by PCM method. 
+
+The operation is written in matlab files and stored in "generate_pcm_data" folder. Before running matlab codes, you should modify the path for loading input data. And the original csi data is referred in https://github.com/sydney222/Python_CsiNet .
+
+Noted that the above conversion can also be implemented in Python.
 
 **Step2**
 ```
