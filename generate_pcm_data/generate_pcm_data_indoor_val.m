@@ -1,4 +1,4 @@
-load('D:\projects\wireless communication AI competition\paper\data\DATA_Hvalin.mat');
+load('DATA_Hvalin.mat');
 
 H = zeros(30000,2048);
 for i = 1:1:30000
