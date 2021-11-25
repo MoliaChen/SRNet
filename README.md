@@ -15,7 +15,8 @@ Noted that the above conversion can also be implemented in Python.
 python main.py --cr 4 --scenario indoor --data-root ../data
 ```
 ## Evalution
-The performance of P-SRNet under different compression ratio and scenario
+The performance of P-SRNet under different compression ratio and scenario.  
+Download checkpoint files from the "checkpoints" folder or from google drive https://drive.google.com/drive/folders/1jkAaRtKjffhCkyajUI7F42xL-AzoAkp-?usp=sharing
 <table>
     <tr>
         <td>CR</td> 
