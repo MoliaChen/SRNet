@@ -1,5 +1,6 @@
 # SRNet
 A powerful structure to compress and reconstruct CSI.
+https://ieeexplore.ieee.org/document/9585309
 ## Usage
 **Step1**
 
